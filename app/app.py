@@ -21,6 +21,16 @@ st.markdown("### Prompt Engineering Comparison for Career Counseling")
 # User Inputs
 name = st.text_input("👤 Enter your name")
 
+education = st.text_input(
+    "🎓 Enter Your Degree",
+    placeholder="Example: B.Tech Information Technology"
+)
+
+preferred_industry = st.text_input(
+    "🏢 Preferred Industry",
+    placeholder="Example: Artificial Intelligence"
+)
+
 skills = st.text_area(
     "💻 Enter your skills",
     placeholder="Example: Python, HTML, JavaScript"
@@ -53,6 +63,8 @@ if st.button("Generate Career Guidance"):
     Student Details:
     Name: {name}
     Skills: {skills}
+    Interests: {interest}
+    Career Goal: {goal}
     Interests: {interest}
     Career Goal: {goal}
 
