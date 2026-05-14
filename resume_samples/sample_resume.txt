@@ -1,0 +1,17 @@
+Name: Santhoush
+
+Skills:
+Python, HTML, CSS, JavaScript
+
+Education:
+B.E Computer Science and Engineering
+
+Projects:
+AI Career Guidance Assistant
+Smart Health Monitoring System
+
+Interests:
+Artificial Intelligence, Web Development
+
+Career Goal:
+AI Engineer
